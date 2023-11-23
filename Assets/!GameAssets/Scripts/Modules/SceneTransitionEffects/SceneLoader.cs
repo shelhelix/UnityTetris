@@ -13,7 +13,7 @@ namespace Com.Shelinc.SceneTransitionEffects {
 
 		public async UniTask LoadScene(string sceneName) {
 			await _transition.HideScenes();
-			await SceneManager.LoadSceneAsync(sceneName);
+			await SceneManager.LoadSceneAsync(sceneName).ToUniTask();
 			await _transition.ShowScenes();
 		}
 	}
