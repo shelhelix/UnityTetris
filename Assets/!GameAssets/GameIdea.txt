@@ -1,0 +1,22 @@
+﻿Gameplay:
+    standart tetris - speedup, all tetromino, rotation - all that stuff
+    custom mode - tetris with modified blocks
+powerup blocks:
+    powerups appears randomly in the falling tetromino
+    cell pull to side cell for N ticks
+    bomb cell - when place tetromino to grid explode area around cell. Add score for destroyed cells
+    all variants tetromino - instead of rotation change figure (with custom color)
+    different square tetromino
+    control reverse block - reverse move control while falling
+additional features:
+    global leaderboard - playfab
+VFX:
+    side pull - cells movement
+    side pull - collapsing effect
+    single cell remove - explosion effect
+    line remove - explosion on all cells or laser cut through line
+    score change text animation
+SFX & BGM - needed
+    
+    
+    
