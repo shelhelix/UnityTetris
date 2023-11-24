@@ -10,10 +10,11 @@ using VContainer.Unity;
 namespace GameJamEntry.Gameplay {
 	public class GameplayScope : LifetimeScope {
 		[NotNullReference] [SerializeField] ScreenManager ScreenManager;
+		[NotNullReference] [SerializeField] GameConfig    Config;
 		
 		protected override void Configure(IContainerBuilder builder) {
 			base.Configure(builder);
-			// TODO: register your gameplay classes here
+			builder.RegisterInstance(Config);
 			builder.RegisterInstance(ScreenManager);
 			builder.RegisterInstance<ISceneTransition>(FadeSceneTransition.Instance);
 			builder.Register<SceneLoader>(Lifetime.Scoped);
