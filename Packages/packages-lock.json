@@ -14,14 +14,14 @@
       "dependencies": {},
       "hash": "8a8fa5a9659a6d63f196391c71e06c4286c8acd7"
     },
-    "com.sag.main-scene-auto-loading": {
-      "version": "https://github.com/STARasGAMES/unity-main-scene-auto-loading.git#upm",
+    "com.ems.main-scene-auto-loading": {
+      "version": "https://github.com/shelhelix/unity-main-scene-auto-loading-fork.git?path=/Packages/Ems.MainSceneAutoLoading",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0"
       },
-      "hash": "d06b5f0cabf669defeb627abc051503746f9b426"
+      "hash": "c99ea79c18edcf5eccfe16fc0736426c8d2e0f5f"
     },
     "com.singularitygroup.hotreload": {
       "version": "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.12.8",
